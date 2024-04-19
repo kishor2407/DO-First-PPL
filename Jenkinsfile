@@ -8,12 +8,12 @@ pipeline
                 {steps{ sh 'echo Build_successful'}}
         
             stage('Test')
-                {steps{ sh 'echo Build_successful'}}
+                {steps{ sh 'echo Test_successful'}}
         
             stage('Deploy')
-                {steps{ sh 'echo Build_successful'}}
+                {steps{ sh 'echo Deploy_successful'}}
         
             stage('Validation')
-                {steps{ sh 'echo Build_successful'}}
+                {steps{ sh 'echo Validation_successful'}}
     }
 }
